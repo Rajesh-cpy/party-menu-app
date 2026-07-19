@@ -1,0 +1,76 @@
+.saved-page {
+  min-height: 100vh;
+  background: #111827;
+  color: white;
+  background-size: cover;
+  font-family: 'Poppins', sans-serif;
+}
+
+.saved-container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 40px 0;
+}
+
+.saved-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.saved-heading {
+  font-size: 36px;
+  margin-bottom: 8px;
+}
+
+.saved-count {
+  color: #9ca3af;
+}
+
+.back-btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  background: #f97316;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.back-btn:hover {
+  background: #ea580c;
+}
+
+.empty-state {
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.empty-state h2 {
+  margin-bottom: 24px;
+  font-size: 28px;
+}
+
+.browse-btn {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  background: #f97316;
+  color: white;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.browse-btn:hover {
+  background: #ea580c;
+}
+
+.food-saved-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 28px;
+}

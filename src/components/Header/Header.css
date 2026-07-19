@@ -1,0 +1,89 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: transparent;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 60%;
+}
+
+.header-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-title {
+  color: #ffffff;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.header-subtitle {
+  margin-top: 8px;
+
+  color: #a7a9b7;
+
+  font-size: 15px;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+.saved-count-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+
+  min-width: 22px;
+  height: 22px;
+  margin-left: 8px;
+  padding: 0 6px;
+
+  background: #f97316;
+  color: white;
+
+  border-radius: 999px;
+
+  font-size: 12px;
+  font-weight: 700;
+
+  line-height: 1;
+}
+.header-btn {
+  padding: 10px 18px;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  transition: 0.25s;
+
+  font-size: 14px;
+}
+
+.secondary-btn {
+  background: transparent;
+
+  color: #ffffff;
+
+  border: 1px solid #34364a;
+}
+
+.secondary-btn:hover {
+  background: #232533;
+}
+
+.logout-btn {
+  background: transparent;
+
+  color: #ffffff;
+
+  border: 1px solid #34364a;
+}
+
+.logout-btn:hover {
+  background: #232533;
+}

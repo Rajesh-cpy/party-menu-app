@@ -1,0 +1,100 @@
+.food-card {
+  background: #1b1d27;
+  border: 1px solid #2f3243;
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  font-family: 'Poppins', sans-serif;
+  transition:
+    transform 0.25s ease,
+    box-shadow 0.25s ease;
+}
+
+.food-card:hover {
+  transform: translateY(-6px);
+}
+
+.food-image-container {
+  position: relative;
+}
+
+.food-image {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  display: block;
+}
+
+.diet-badge {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  padding: 6px 12px;
+  border-radius: 999px;
+  color: white;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.veg {
+  background: #2f855a;
+}
+
+.non-veg {
+  background: #c53030;
+}
+
+.food-content {
+  padding: 20px;
+}
+
+.food-category {
+  color: #f97316;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
+
+.food-title {
+  color: white;
+  font-size: 18px;
+  margin-bottom: 12px;
+}
+
+.food-description {
+  color: #9ea3b6;
+  font-size: 14px;
+  line-height: 1.6;
+  margin-bottom: 18px;
+
+  overflow: hidden;
+}
+
+.food-servings {
+  color: #b9bdcf;
+  font-size: 12px;
+}
+.remove-btn {
+  width: 100%;
+  margin-top: 18px;
+  padding: 12px;
+
+  background: transparent;
+  border: 1px solid #ef4444;
+  color: #ef4444;
+
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  font-size: 14px;
+  font-weight: 600;
+
+  transition: 0.3s;
+}
+
+.remove-btn:hover {
+  background: #ef4444;
+  color: white;
+}
