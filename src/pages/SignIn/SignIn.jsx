@@ -12,7 +12,7 @@ const SignIn = () => {
   const navigate = useNavigate()
 
   useEffect(() => {
-    const token = localStorage.getItem('token')
+    const token = localStorage.getItem('party_menu_token')
 
     if (token) {
       navigate('/')
@@ -81,6 +81,7 @@ const SignIn = () => {
               placeholder="Enter your email"
               className="form-input"
               value={email}
+              required
               onChange={(event) => setEmail(event.target.value)}
             />
           </div>
@@ -96,10 +97,11 @@ const SignIn = () => {
               placeholder="Enter your password"
               className="form-input"
               value={password}
+              required
               onChange={(event) => setPassword(event.target.value)}
             />
           </div>
-          <button type="submit" className="signin-btn">
+          <button type="submit" className="signin-btn" disabled={loading}>
             {loading ? 'Signing In...' : 'Sign In'}
           </button>
         </form>
